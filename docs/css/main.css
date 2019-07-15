@@ -1,0 +1,225 @@
+/*
+ * Variables
+ */
+/*
+ * General styles
+ */
+body {
+  background-color: #272b30 !important; }
+
+.navbar-custom.top-nav-collapse {
+  background: #272b30 none repeat scroll 0 0 !important; }
+
+.venue {
+  font-size: 18px; }
+
+.popup-content {
+  color: #000;
+  font-size: 14px; }
+
+#map {
+  width: 100%;
+  height: 330px;
+  margin-bottom: 30px;
+  margin-top: 0px !important; }
+
+.thumbnail span {
+  color: #000;
+  font-size: 20px; }
+
+.thumbnail:hover {
+  background-color: #ddd; }
+
+.modal-title, .modal-body {
+  color: #272b30 !important; }
+
+.modal-body p {
+  font-size: 18px !important;
+  margin: 10px 0; }
+
+.modal-body h4 {
+  margin: 25px 0; }
+
+.caption p {
+  margin: 7px 0 !important; }
+
+.fb_iframe_widget {
+  display: inline !important;
+  padding: 4px 0;
+  position: absolute !important; }
+
+.twitter-col {
+  padding-right: 7px; }
+
+.fb-col {
+  padding-left: 7px; }
+
+.nav li a {
+  padding: 10px; }
+
+.content-section {
+  padding-top: 60px !important; }
+
+/* Language bar
+---------------------------------------------- */
+.nav-lang {
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 10px;
+  padding-right: 10px; }
+  .nav-lang li > a {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+/* Index
+---------------------------------------------- */
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), #272b30), url("/images/encar-min.jpg"); }
+  .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff; }
+  .intro h1 {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #fff; }
+    .intro h1 span {
+      display: block; }
+    .intro h1 span::before {
+      content: attr(data-text); }
+  .intro .about-button {
+    display: table;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%; }
+    .intro .about-button .btn-item {
+      line-height: 70px; }
+      .intro .about-button .btn-item .btn {
+        margin-top: 0px !important; }
+
+#join-us .thumbnail {
+  padding: 20px;
+  height: 230px; }
+
+h3 {
+  margin: 0; }
+
+.sponsors {
+  margin: 7px 0;
+  text-transform: none !important; }
+
+.social-icon {
+  width: 60px;
+  padding: 0 10px; }
+
+.bottom-espace {
+  margin-bottom: 30px; }
+
+#program-board {
+  background-color: #fff; }
+
+#program-board p, #program-board #label {
+  margin: 10px 0 !important; }
+
+#program-board p {
+  font-size: 16px;
+  color: #000; }
+
+#speakers {
+  padding: 0px 0px 8px 0px; }
+
+.speaker {
+  display: inline; }
+
+.talk-title {
+  font-weight: bold; }
+
+#program-board #label {
+  font-size: 12px;
+  color: #31708f; }
+
+.container-fluid p::selection {
+  background: #B0B0B0; }
+
+.container-fluid p::-moz-selection {
+  background: #B0B0B0; }
+
+.room {
+  border-top: 1px solid #b2b2b2; }
+
+.empty {
+  border-left: 1px solid #b2b2b2; }
+
+.btn-program {
+  border-radius: 3px;
+  background-color: #ddd; }
+
+.btn-program:hover {
+  border-radius: 3px;
+  background-color: #ddd; }
+
+#program-board {
+  border-bottom: 1px solid #b2b2b2; }
+
+.hour {
+  border-top: 1px solid #b2b2b2;
+  border-left: 1px solid #b2b2b2; }
+
+.activity {
+  border-top: 1px solid #b2b2b2;
+  border-left: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2; }
+
+.extra-top-padding {
+  padding-top: 10px; }
+
+.dark-link {
+  color: #1d9b6c; }
+
+#sponsors h4 {
+  font-size: 20px; }
+
+.program-app {
+  font-size: 16px; }
+
+/** SOTM 2017 LIMA **/
+a {
+  color: #48A9C1; }
+
+a:focus, a:hover {
+  color: #427E8C; }
+
+.btn-default {
+  color: #48A9C1;
+  border-top-color: #48A9C1;
+  border-right-color: #48A9C1;
+  border-bottom-color: #48A9C1;
+  border-left-color: #48A9C1; }
+
+.btn-default.focus, .btn-default:hover {
+  color: #FFFFFF;
+  background-color: #48A9C1;
+  border-top-color: #48A9C1;
+  border-right-color: #48A9C1;
+  border-bottom-color: #48A9C1;
+  border-left-color: #48A9C1; }
+
+/** SOTM 2018 BUENOS AIRES **/
+.main-logo {
+  margin-top: 75px;
+  width: 220px; }
+
+@media (min-width: 700px) {
+  .thumbnail.center-block {
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    min-height: 242px; } }
