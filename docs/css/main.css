@@ -5,10 +5,10 @@
  * General styles
  */
 body {
-  background-color: #272b30 !important; }
+  background-color: #170202 !important; }
 
 .navbar-custom.top-nav-collapse {
-  background: #272b30 none repeat scroll 0 0 !important; }
+  background: #170202 none repeat scroll 0 0 !important; }
 
 .venue {
   font-size: 18px; }
@@ -74,7 +74,7 @@ body {
 /* Index
 ---------------------------------------------- */
 .intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), #272b30), url("/images/encar-min.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), #170202), url("/images/encar-min.jpg"); }
   .intro img {
     display: block;
     margin-left: auto;
@@ -192,25 +192,25 @@ h3 {
 
 /** SOTM 2017 LIMA **/
 a {
-  color: #48A9C1; }
+  color: #a04040; }
 
 a:focus, a:hover {
-  color: #427E8C; }
+  color: #672323; }
 
 .btn-default {
-  color: #48A9C1;
-  border-top-color: #48A9C1;
-  border-right-color: #48A9C1;
-  border-bottom-color: #48A9C1;
-  border-left-color: #48A9C1; }
+  color: #a04040;
+  border-top-color: #a04040;
+  border-right-color: #a04040;
+  border-bottom-color: #a04040;
+  border-left-color: #a04040; }
 
 .btn-default.focus, .btn-default:hover {
   color: #FFFFFF;
-  background-color: #48A9C1;
-  border-top-color: #48A9C1;
-  border-right-color: #48A9C1;
-  border-bottom-color: #48A9C1;
-  border-left-color: #48A9C1; }
+  background-color: #a04040;
+  border-top-color: #a04040;
+  border-right-color: #a04040;
+  border-bottom-color: #a04040;
+  border-left-color: #a04040; }
 
 /** SOTM 2018 BUENOS AIRES **/
 .main-logo {
