@@ -39,10 +39,10 @@ t:
         url: /en/#venue
       register:
         label: Register
-        url: https://sotmlatam2018.eventbrite.com.ar
+        url: https://www.eventbrite.com.ar/e/state-of-the-map-latam-2018-tickets-46950300613
       wiki:
         label: Wiki
-        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2019
   es:
     language_name: Español
     modal:
@@ -62,10 +62,10 @@ t:
         url: /#venue
       register:
         label: Regístrate
-        url: https://sotmlatam2018.eventbrite.com.ar
+        url: https://www.eventbrite.com/e/osm-latam-py-2019-registration-70204859625
       wiki:
         label: Wiki
-        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2019
 # pt:
 #   language_name: Português
 #   modal:
