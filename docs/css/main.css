@@ -204,13 +204,28 @@ a:focus, a:hover {
   border-bottom-color: #a04040;
   border-left-color: #a04040; }
 
-.btn-default.focus, .btn-default:hover {
+.btn-default:visited {
+  color: #a04040;
+  border-top-color: #a04040;
+  border-right-color: #a04040;
+  border-bottom-color: #a04040;
+  border-left-color: #a04040; }
+
+.btn-default:focus, .btn-default:hover {
   color: #FFFFFF;
   background-color: #a04040;
   border-top-color: #a04040;
   border-right-color: #a04040;
   border-bottom-color: #a04040;
   border-left-color: #a04040; }
+
+.btn-default:active {
+  color: #FFFFFF;
+  background-color: #672323;
+  border-top-color: #672323;
+  border-right-color: #672323;
+  border-bottom-color: #672323;
+  border-left-color: #672323; }
 
 /** SOTM 2018 BUENOS AIRES **/
 .main-logo {
