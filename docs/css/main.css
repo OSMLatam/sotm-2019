@@ -30,6 +30,11 @@ body {
 .thumbnail:hover {
   background-color: #ddd; }
 
+.card-speaker {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto; }
+
 .modal-title, .modal-body {
   color: #272b30 !important; }
 
