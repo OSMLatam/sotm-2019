@@ -27,8 +27,12 @@ lang: es
             <span class="col-xs-12 col-sm-4 btn-item">
               <!---link de envia tu presentación-->
               <a target="_blank" class="btn btn-default"
-              href="" role="button">
-                Envia tu presentación <br>(Proximamente)
+              href="https://www.papercall.io/osmlatam" role="button">
+                Envia tu Ponencia
+              </a>
+              <a target="_blank" class="btn btn-default"
+              href="https://www.papercall.io/osmlatamtalleres" role="button">
+                Envia tu Taller
               </a>
             </span>
           </div>
@@ -296,6 +300,27 @@ lang: es
   </div>
 </section>
 
+<!--Seccion Codigo de conducta-->
+<section id="conducta" class="container content-section">
+  <div class="row text-center">
+    <h2>
+      Código de conducta
+    </h2>
+  </div>
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <p>
+      Nuestro evento está comprometido a brindar una experiencia segura y libre de acoso para todos los participantes, 
+      sin tener en cuenta su género, identidad y expresión de género, orientación sexual, discapacidades, apariencia 
+      física, raza, etnicidad, religión (o falta de una), u opciones tecnológicas. No toleramos el acoso a los 
+      participantes del evento, en ninguna forma. El lenguaje o imágenes sexuales no son apropiados en ninguna parte 
+      del evento, incluyendo charlas, talleres o encuentros sociales relacionados, twitter y otras redes sociales. 
+      Los participantes del evento que rompan estas reglas pueden ser sancionados con la expulsión de la conferencia, 
+      siguiendo el criterio discrecional de los organizadores del evento.
+    </p> 
+  </div>
+</section>
+
+
 <!--Sección Speakers-->
 <section id="program" class="container content-section">
   <div class="row text-center">
@@ -305,18 +330,32 @@ lang: es
   </div>
   <div class="col-sm-6 col-md-6">
     <div class="thumbnail card-speaker" style="color:black; padding: 35px 15px;">
-      <h4 style="text-align: center">Nombre 1</h4>
-      <img src="{{ "/images/speaker1.jpg" | prepend: site.baseurl }}" alt="kaart" width="200" style="margin-bottom: 40px;">
+      <h4 style="text-align: center">Fernando Castro T. (Medellín, 1984)</h4>
+      <img src="{{ "/images/speaker1.jpg" | prepend: site.baseurl }}" alt="kaart" width="200" style="margin-bottom: 40px;  border-radius: 50%;">
       <!--quitar text center cuando tenga la descripcion real-->
-      <p style="text-align:center;">Descripción</p>
+      <p style="text-align:center;">Terminó el pregrado de filosofía de la Universidad de Antioquia. Colabora
+        activamente en el proyecto de Red Comunitaria libre NuestraRed.org que
+        opera en los límites entre los departamentos del Valle del Cauca,
+        Risaralda y Quindío. Miembro fundador de la Fundación OpenStreetMap
+        Colombia. Aporto mi experiencia como DevOps para diferentes proyectos
+        comunitarios y en especial a defender la libertad de la red.
+        </p>
     </div>
   </div>
   <div class="col-sm-6 col-md-6">
     <div class="thumbnail card-speaker" style="color:black; padding: 35px 15px;">
-      <h4 style="text-align: center">Nombre 2</h4>
-      <img src="{{ "/images/speaker2.jpg" | prepend: site.baseurl }}" alt="kaart" width="200" style="margin-bottom: 40px;">
+      <h4 style="text-align: center">Jéssica Sena Garcia</h4>
+      <img src="{{ "/images/speaker2.jpg" | prepend: site.baseurl }}" alt="kaart" width="200" style="margin-bottom: 40px; border-radius: 50%;">
       <!--quitar text center cuando tenga la descripcion real-->
-      <p style="text-align:center;">Descripción</p>
+      <p style="text-align:center;">Ingeniera informática por la UPC. Durante los últimos 6 años y medio,
+        trabajé activamente en el ámbito geo, como desarrolladora web y móvil en
+        el Institut Cartogràfic i Geologic de Catalunya, donde formaba parte del
+        grupo de innovación Geostart.
+        
+        Formó parte de la comunidad de GeoInquiets (Barcelona), y también es
+        miembro de GeoChicas, donde esta a cargo de la coordinación técnica del
+        proyecto #LasCallesDeLasMujeres.
+        </p>
     </div>
   </div>
 </section>
@@ -356,36 +395,51 @@ lang: es
         <tr>
           <td>Jueves 14 de noviembre</td>
           <td>10:00 - 12:00</td>
-          <td>Charlas y talleres en simultaneo</td>
+          <td>Ponencias</td>
         </tr>
         <tr>
           <td>Jueves 14 de noviembre</td>
-          <td>12:00 - 13:00</td>
+          <td>12:00 - 13:30</td>
           <td>Almuerzo</td>
         </tr>
         <tr>
           <td>Jueves 14 de noviembre</td>
-          <td>13:00 - 17:00</td>
-          <td>Charlas y talleres en simultaneo</td>
+          <td>13:30 - 17:30</td>
+          <td>Talleres</td>
+        </tr>
+        <tr>
+          <td>Jueves 14 de noviembre</td>
+          <td>17:30 - 19:30</td>
+          <td>Conferencia 1 y 2</td>
+        </tr>
+        <tr>
+          <td>Jueves 14 de noviembre</td>
+          <td>19:30 - ...</td>
+          <td>Geo-birras, espacio de encuentro y networking</td>
         </tr>
         <tr>
           <td>Viernes 15 de noviembre</td>
           <td>08:30 - 12:00</td>
-          <td>Charlas y talleres en simultaneo</td>
+          <td>Ponencias</td>
         </tr>
         <tr>
           <td>Viernes 15 de noviembre</td>
-          <td>12:00 - 13:00</td>
+          <td>12:00 - 13:30</td>
           <td>Almuerzo</td>
         </tr>
         <tr>
           <td>Viernes 15 de noviembre</td>
-          <td>13:00 - 17:00</td>
-          <td>Charlas y talleres en simultaneo</td>
+          <td>13:30 - 17:30</td>
+          <td>Talleres</td>
         </tr>
         <tr>
           <td>Viernes 15 de noviembre</td>
-          <td>19:00 - ...</td>
+          <td>17:30 - 19:30</td>
+          <td>Conferencia 2 y 3</td>
+        </tr>
+        <tr>
+          <td>Viernes 15 de noviembre</td>
+          <td>19:30 - ...</td>
           <td>Geo-birras, espacio de encuentro y networking</td>
         </tr>
         <tr>
@@ -406,7 +460,7 @@ lang: es
         </tr>
         <tr>
           <td>Sábado 16 de noviembre</td>
-          <td>Tarde - Domingo</td>
+          <td>Mañana</td>
           <td>Opción 2: Día y medio de turismo a las cataratas de Yguazu.
           </td>
         </tr>
@@ -423,8 +477,17 @@ lang: es
     </div>
     <div class = "col-md-4">
       <h2>Alojamiento</h2>
-      <p>En construccion</p>
-      <button  class="btn btn-default">Proximamente</button>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://tinyurl.com/y3hjrapw" class="btn btn-default">Booking</a>
+      </span>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://tinyurl.com/y6dq6quq" class="btn btn-default">Trivago</a>
+      </span>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://www.google.com.ar/search?rlla=0&hotel_dates=2018-03-01%2C2018-03-02&hotel_occupancy=2&tbm=lcl&ei=39tuXbqDMrnX5OUPgJmBqAw&q=alojamiento+en+encarnaci%C3%B3n+paraguay&oq=alojamiento+en+encarnacion+paraguay&gs_l=psy-ab.1.0.0j0i22i30k1l3.3470.10052.0.11699.20.20.0.0.0.0.240.2492.0j16j1.17.0....0...1c.1.64.psy-ab..3.17.2487...0i22i10i30k1.0.hZTWfeZlJcM#rlfi=hd:2019-09-10,2019-09-11;si:;mv:!1m2!1d-27.2966129!2d-55.859310799999996!2m2!1d-27.3433191!2d-55.890375199999994;tbs:lf_hd:-1,lf_ho:2,lrf:!1m4!1u13!2m2!13m1!1b1!1m4!1u10!2m2!11m1!1e10!1m4!1u10!2m2!11m1!1e2!1m4!1u10!2m2!11m1!1e3!2m21!1e7!4m4!7m3!1m1!1u300000!3sPYG!4m4!7m3!1m1!1u400000!3sPYG!4m4!7m3!1m1!1u500000!3sPYG!4m4!7m3!1m1!1u600000!3sPYG!2m1!1e2!2m1!1e13!2m10!1e10!4m2!11m1!1e10!4m2!11m1!1e2!4m2!11m1!1e3!2m7!1e17!4m2!17m1!1e3!4m2!17m1!1e8!3sIAE,lf:1,lf_ui:6" class="btn btn-default">Google</a>
+      </span>
+
+
     </div>
     <div class = "col-md-4">
         <h2>Turismo y Cultura</h2>
@@ -622,6 +685,35 @@ lang: es
 </section>
 -->
 
+<!--
+<div class="video-slider">
+
+    <div class="slide">
+        <video class="slider-video" poster="http://tinyurl.com/ne24w38">
+            <source src="http://tinyurl.com/npmt9td" type="video/mp4" />
+            <source src="http://tinyurl.com/myowmhx" type="video/webm" />
+            <source src="http://tinyurl.com/my3pdd9" type="video/ogg" />
+        </video>
+        <div class="overlay-content">
+            <div class="play-button"></div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <video class="slider-video" poster="http://tinyurl.com/ne24w38">
+            <source src="http://tinyurl.com/npmt9td" type="video/mp4" />
+            <source src="http://tinyurl.com/myowmhx" type="video/webm" />
+            <source src="http://tinyurl.com/my3pdd9" type="video/ogg" />
+        </video>
+        <div class="overlay-content">
+            <div class="play-button"></div>
+        </div>
+    </div>
+
+    <div class="slide-arrow left"></div>
+    <div class="slide-arrow right"></div>
+</div>
+-->
 
 
 {% include modals.html %}
