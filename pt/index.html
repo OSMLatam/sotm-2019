@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+  <head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>State of the Map LATAM 2019</title>
+  <meta name="description" content="The Latin American OpenStreetMap Conference">
+  <meta name="author" content="OpenStreetMap Latinoamérica">
+  <meta property="og:image" content="/images/SOTM_2019_CLARO.png">
+  <meta property="og:site_name" content="State of the Map Latam 2019">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="State of the Map LATAM 2019">
+  <meta property="og:description"
+  content="A conferência latino-americana do OpenStreetMap. 14, 15 E 16 DE NOVEMBRO, ENCARNACIÓN - PARAGUAI.">
+  <meta property="og:url" content="">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@osmlatam">
+  <meta property="twitter:image" content="/images/SOTM_2019_CLARO.png">
+  <meta name="twitter:title" content="State of the Map LATAM 2019">
+  <meta name="twitter:description"
+  content="A conferência latino-americana do OpenStreetMap. 14, 15 E 16 DE NOVEMBRO, ENCARNACIÓN - PARAGUAI.">
+  <meta name="twitter:url" content="">
+
+<!-- Translations -->
+<link hreflang="en" href="/en/" rel="alternate">
+<link hreflang="es" href="" rel="alternate">
+<link hreflang="pt-br" href="/pt/" rel="alternate">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/3.3.7/css/grayscale.min.css">
+<!--
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/3.3.7/css/grayscale.min.css">
+-->
+
+  <!-- Leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script
+			  src="https://code.jquery.com/jquery-3.4.1.slim.js"
+			  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+			  crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sotm-navbar-collapse-1" aria-expanded="false" aria-controls="sotm-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars"></i>
+      </button>
+
+      
+      <a class="navbar-brand" href="">State of the Map Latam 2019</a>
+    </div>
+
+    <div id="sotm-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right nav-lang">
+        
+        
+          <li>
+            <a href="/en/">en</a>
+          </li>
+        
+          <li>
+            <a href="/">es</a>
+          </li>
+        
+          <li>
+            <a href="/pt">pt</a>
+          </li>
+        
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+          <li>
+            <a href="/#about">Sobre</a>
+          </li>
+        
+          <li>
+            <a href="/#program">Programa</a>
+          </li>
+        
+          <li>
+            <a href="/#venue">Local</a>
+          </li>
+        
+          <li>
+            <a href="https://www.eventbrite.com/e/osm-latam-py-2019-registration-70204859625">Inscreva-se</a>
+          </li>
+        
+          <li>
+            <a href="https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2019">Wiki</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="/images/SOTM_2019.png" alt="State of the Map LATAM - Encarnacion 2019" class="img-responsive main-logo">
+          <h1>¿Qué mundo revelan <span>seus mapas?</span></h1>
+          <h4 class="margin: 0px">Encarnación - Paraguai</h4>
+          <h2>14, 15 y 16 de Novembro</h2>
+          <div class="about-button">
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <!--- link de registro -->
+              <a class="btn btn-default" href="https://www.eventbrite.com/e/osm-latam-py-2019-tickets-70204859625" target="_blank" role="button">Inscreva-se</a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <!---scroll a about-->
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <!---link de envia tu presentación-->
+              <a target="_blank" class="btn btn-default"
+              href="https://www.papercall.io/osmlatam" role="button">
+                Envie sua apresentação
+              </a>
+              <a target="_blank" class="btn btn-default"
+              href="https://www.papercall.io/osmlatamtalleres" role="button">
+                Envie seu wokrshops
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!---seccion de acerca-->
+<section id="about" class="container content-section text-center">
+  <div class="row">
+    <h2>
+      Sobre o evento
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+<p>
+       O evento terá duração de três dias consecutivos em novembro de 2019, será composto por palestras e workshop, distribuídos ao longo da agenda.
+       </p>
+       <p>
+         A intenção, desde a organização do evento, é a transferência das experiências realizadas com o mapa e a geração de uma oportunidade, a partir do seu negócio, de alcançar as diferentes comunidades, através de wokrshops ou palestras que contam o trabalho realizado para a integração. com a comunidade e colaboração mútua.
+       </p>
+       <p>
+         Espera-se a recepção de cerca de 200 participantes de diferentes partes da América Latina, participantes da comunidade.
+       </p>      <!--
+      <a data-toggle="modal" data-target="#code-of-conduct-es" href="">código de conducta</a>.
+      --->
+    </div>
+  </div>
+</section>
+
+<!---seccion de historia-->
+<section id="history" class="container content-section text-center">
+  <div class="row">
+    <h2>
+      Historia
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p>
+        O estado do mapa da América Latina é a conferência anual de todos os cartógrafos e
+         Usuários do OpenStreetMap na América Latina. <b> Esta será a quinta edição </b> do evento.
+         <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2015"> O
+         A primeira edição foi realizada em Santiago, Chile, de 4 a 6 de setembro de 2015 e contou com a
+         aproximadamente 200 participantes, com um público que varia de usuários individuais
+         do OSM às empresas e ativistas da comunidade local.
+      </p>
+      <p>
+        <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2016"> A segunda edição </a>
+          Foi realizado em São Paulo, Brasil, e teve um grande número de
+         participantes de toda a região e convidados internacionais, representação de instituições
+         organizações sociais, entre outros.
+      </p>
+      <p>
+        <a target="_blank" href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2017"> A terceira edição </a>
+          Foi realizado em Lima, Peru, de 29 de novembro a 2 de dezembro de 2017.
+         Workshops de mapeamento, mesas redondas e palestras sobre a comunidade foram desenvolvidas.
+      </p>
+      <p>
+        <a target="_blank" href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2017"> A quarta edição </a>
+           da Conferência, realizada em Buenos Aires, Argentina, em 24 e 25 de setembro de 2018 e realizada como
+           para promover o uso do OpenStreetMap (OSM) e a integração de mapeadores, desenvolvedores,
+           comunidades de dados abertos, comunidades de software livre e de código aberto, estudantes, pesquisadores,
+           Profissionais de geoinformação, organizações não-governamentais, empresas e instituições públicas.        </p>
+      <!--
+      <a data-toggle="modal" data-target="#code-of-conduct-es" href="">código de conducta</a>.
+      --->
+    </div>
+  </div>
+</section>
+
+<!---Sección Open street map en latinoamérica-->
+<section id="osmlatam" class="container content-section text-center">
+  <div class="row">
+    <h2>
+      OpenStreetMap em América Latina
+    </h2>
+  </div>
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <p>
+    O OpenStreetMap possui uma comunidade crescente e ativa na região. Eles nos perguntam
+       rotineiramente como usar o OpenStreetMap em diferentes casos de uso, desde os mais
+       amplo ao mais específico de todos os lugares da América Latina.
+    </p>
+    <p>
+    As comunidades latino-americanas estão entre os grupos mais ativos da
+       OpenStreetMap Uma grande diversidade de projetos está acontecendo na maioria dos
+       países da região, alguns deles são:
+    </p>
+    
+    <ul>
+      <li>
+        <p>
+            <a target="_blank" href="http://openstreetmap.mx/?reqp=1&reqr="> OpenStreetMap México </a> organiza eventos bimestrais e trabalha na importação
+           dados públicos do INEGI, Instituto Nacional de Estatística e Geografia, também
+           Possui ampla articulação com o setor acadêmico;
+        </p>
+      </li>
+    </ul>
+    
+    <ul>
+      <li>
+        <p>
+            Na Costa Rica, a fundação <a target="_blank" href="https://www.fundecor.org/"> FUNDECOR </a> está mapeando e usando dados de
+           OpenStreetMap para planejar ações em áreas com risco de inundação;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+            Na Nicarágua, o projeto <a target="_blank" href="https://www.mapanica.net/"> Mapanica </a> mapeou as rotas de ônibus no OSM e fez o
+           primeiro mapa de transporte do país e a primeira solução de transporte integral para
+           toda a América Central;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+        Na <a target="_blank" href="https://blog.openstreetmap.co/s657"> Colômbia </a>, a comunidade está organizando grandes eventos e várias ações
+           organizações sociais conjuntas de mapeamento humanitário;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+Após o terremoto no Equador em 16 de abril, a comunidade local
+           organizou um mapatón (atividade de mapeamento) para melhorar o mapa das regiões
+           afetado pelo terremoto;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+            Durante a primeira <a target="_blank" href="https://www.openstreetmap.org/user/wille/diary/38623"> Conferência do Software Livre de Cuba </a> (CubaConf), os
+           mapeadores de Cuba e de outros países latino-americanos organizaram alguns
+           ações como mapatón, palestras e workshops de mapeamento para aumentar a
+           Comunidade OSM em Cuba;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+          <a target="_blank" href="https://mapazonia.org/"> Mapazonia </a>, um projeto para melhorar o mapa da região da floresta amazônica;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+          Em São Paulo e Rio de Janeiro, as importações de dados de
+           edifícios
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+          Na <a target="_blank" href="http://osmargentina.org/#3/-44.8/-63"> Argentina </a>, existem vários projetos em desenvolvimento, como a reclassificação de
+          cidades, cidades e rotas. Ele está tentando obter 100% do
+          populações com a altura das ruas e a face do transporte público na região
+          grandes cidades. Também estamos em contato permanente com membros do
+          <a target="_blank" href="http://www.ign.gob.ar/"> IGN </a>, <a target = "_ blank" href = "https: //www.idera.gob. ar / "> IDERA </a>
+          , <a target="_blank" href="https://www.argentina.gob.ar/ciencia/conae"> CONAE </a>,
+          <a target="_blank" href="https://www.facebook.com/GeoinquietosArgentina/"> Geoinquietos Argentina </a>
+          , <a target="_blank" href="https://www.osgeo.org/"> OSGeo </a> Há também uma forte
+          Trabalho com os colaboradores Mapillary e OpenStreetCam. Em 2014, um
+          conferência global sobre o estado do mapa (a primeira conferência SotM no
+          hemisfério sul) e desde essa data três edições da <a target="_blank" href="http://foss4g-ar.org/"> FOSS4G </a> Argentina;
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <p>
+          <a target="_blank" href="https://geochicasosm.github.io/lascallesdelasmujeres/"> Ruas das Mulheres </a> é um projeto gerado a partir de ruas nomeadas
+           de mulheres, em diferentes cidades de língua espanhola (América Latina e Espanha). Ele
+           O objetivo é tornar visível a lacuna que existe historicamente na representação de
+           Figuras femininas nas ruas da cidade.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!---Secciòn tematicas-->
+<section id="tematicas" class="container content-section text-center">
+  <div class="row">
+    <h2>
+      Temas do evento SotM – LATAM - 2019
+    </h2>
+  </div>
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <ul>
+      <li>
+        <p>Exclusão social</p>
+      </li>
+      <li>
+        <p>Empoderamento das comunidades</p>
+      </li>
+      <li>
+        <p>Deterioração e risco ambiental</p>
+      </li>
+      <li>
+        <p>Oportunidades Urbanas / Territoriais</p>
+      </li>
+      <li>
+        <p>Abordagem de gênero</p>
+      </li>
+      <li>
+        <p>Programação</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!---Secciòn Audiencia esperada-->
+<section id="audiencia" class="container content-section text-center">
+  <div class="row">
+    <h2>
+      Público esperado
+    </h2>
+  </div>
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <ul>
+      <li>
+        <p>Mapeadores e usuários do OpenStreetMap</p>
+      </li>
+      <li>
+        <p>Profissionais de GIS (Sistemas de Informação Geográfica)</p>
+      </li>
+      <li>
+        <p>Profissionais de negócios interessados em usar dados OSM</p>
+      </li>
+      <li>
+        <p>Comunidades de dados abertos</p>
+      </li>
+      <li>
+        <p>Estudantes de informática, urbanos e geográficos</p>
+      </li>
+      <li>
+        <p>Instituições estatais</p>
+      </li>
+      <li>
+        <p>Academia</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!--Seccion Codigo de conducta-->
+<section id="conducta" class="container content-section">
+  <div class="row text-center">
+    <h2>
+      Código de conduta
+    </h2>
+  </div>
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <p>
+      Nosso evento tem o compromisso de oferecer uma experiência segura e sem assédio a todos os participantes,
+       independentemente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência
+       física, raça, etnia, religião (ou falta de uma) ou opções tecnológicas. Não toleramos assédio de
+       participantes do evento, de qualquer forma. Linguagem ou imagens sexuais não são apropriadas em nenhum lugar
+       do evento, incluindo palestras, workshops ou reuniões sociais relacionadas, twitter e outras redes sociais.
+       Os participantes do evento que violarem essas regras podem ser penalizados com a expulsão da conferência,
+       seguindo o critério dos organizadores do evento.
+    </p> 
+  </div>
+</section>
+
+
+<!--Sección Speakers-->
+<section id="program" class="container content-section">
+  <div class="row text-center">
+    <h2>
+      Apresentações
+    </h2>
+  </div>
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail card-speaker" style="color:black; padding: 35px 15px;">
+      <h4 style="text-align: center">Fernando Castro T. (Medellín, 1984)</h4>
+      <img src="/images/speaker1.jpg" alt="kaart" width="200" style="margin-bottom: 40px;  border-radius: 50%;">
+      <!--quitar text center cuando tenga la descripcion real-->
+      <p style="text-align:center;">Ele terminou sua graduação em filosofia na Universidade de Antioquia. Colabore
+         ativamente no projeto da Free Community Network NuestraRed.org que
+         Opera nas fronteiras entre os departamentos de Valle del Cauca,
+         Risaralda e Quindío. Membro fundador da OpenStreetMap Foundation
+         Colômbia Trago minha experiência como DevOps para diferentes projetos
+         comunidade e principalmente para defender a liberdade da rede.
+        </p>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail card-speaker" style="color:black; padding: 35px 15px;">
+      <h4 style="text-align: center">Jéssica Sena Garcia</h4>
+      <img src="/images/speaker2.jpg" alt="kaart" width="200" style="margin-bottom: 40px; border-radius: 50%;">
+      <!--quitar text center cuando tenga la descripcion real-->
+      <p style="text-align:center;">Engenheira de computação pela UPC. Nos últimos 6 anos e meio,
+         trabalhei ativamente na área geográfica, como desenvolvedora web e móvel em
+         Instituto Cartográfico e Geológico da Catalunha, onde fazia parte do
+         Grupo de inovação Geostart.
+        
+         Ele fazia parte da comunidade GeoInquiets (Barcelona) e também é
+         membro da GeoChicas, onde é responsável pela coordenação técnica do
+         Projeto #LasCallesDeLasMujeres.
+        </p>
+    </div>
+  </div>
+</section>
+
+<!---Secciòn Agenda-->
+<section id="program" class="container content-section">
+  <div class="row text-center">
+    <h2>
+      Agenda Geral
+    </h2>
+  </div>
+  <div class="col-md-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Hora</th>
+          <th>Evento</th>
+        </tr>
+      </thead>
+<tbody>
+        <tr>
+          <td> quinta-feira, 14 de novembro </td>
+          08:00 - 09:00 </td>
+          <td> Acreditações </td>
+        </tr>
+        <tr>
+          <td> </td>
+          09:00 - 09:30
+          <td> Palavras de boas-vindas </td>
+        </tr>
+        <tr>
+          <td> </td>
+          09:30 - 10:00 </td>
+          <td> Indicações e orientações sobre a metodologia do evento </td>
+        </tr>
+        <tr>
+          <td> </td>
+          10:00 - 12:00 </td>
+          <td> Apresentações </td>
+        </tr>
+        <tr>
+          <td> </td>
+          12:00 - 13:30 </td>
+          <td> Almoço </td>
+        </tr>
+        <tr>
+          <td> </td>
+          13:30 - 17:30
+          <td> Oficinas </td>
+        </tr>
+        <tr>
+          <td> </td>
+          17:30 - 19:30
+          <td> Conferência 1 e 2 </td>
+        </tr>
+        <tr>
+          <td> </td>
+          19:30 - ... </td>
+          <td> Geobirras, espaço para reuniões e networking </td>
+        </tr>
+        <tr>
+          <td> sexta-feira, 15 de novembro </td>
+          08:30 - 12:00 </td>
+          <td> Apresentações </td>
+        </tr>
+        <tr>
+          <td> </td>
+          12:00 - 13:30 </td>
+          <td> Almoço </td>
+        </tr>
+        <tr>
+          <td> </td>
+          13:30 - 17:30
+          <td> Oficinas </td>
+        </tr>
+        <tr>
+          <td> </td>
+          17:30 - 19:30
+          <td> Conferência 2 e 3 </td>
+        </tr>
+        <tr>
+          <td> </td>
+          19:30 - ... </td>
+          <td> Geobirras, espaço para reuniões e networking </td>
+        </tr>
+        <tr>
+          <td> Sábado, 16 de novembro </td>
+          08:30 - 11:00
+          <td> Palestras e workshops ao mesmo tempo </td>
+        </tr>
+        <tr>
+          <td> </td>
+          11:00 - 12:00 </td>
+          <td> Apresentação final </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> Tarde </td>
+          <td> Opção 1: Viagem à tarde para a rota jesuíta da região, com duração de uma tarde.
+          </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> Amanhã </td>
+          Opção 2: Dia e meio de turismo para as Cataratas Yguazu.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="container content-section text-center">
+  <div class = "row">
+    <div class = "col-md-4">
+<h2> Como chegar </h2>
+       <p> Em construção </p>
+       <button class = "btn btn-default"> Em breve </button>
+    </div>
+    <div class = "col-md-4">
+      <h2>Alojamento</h2>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://tinyurl.com/y3hjrapw" class="btn btn-default">Booking</a>
+      </span>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://tinyurl.com/y6dq6quq" class="btn btn-default">Trivago</a>
+      </span>
+      <span class="col-xs-12 col-sm-4 btn-item">
+        <a target="_blank" href="https://www.google.com.ar/search?rlla=0&hotel_dates=2018-03-01%2C2018-03-02&hotel_occupancy=2&tbm=lcl&ei=39tuXbqDMrnX5OUPgJmBqAw&q=alojamiento+en+encarnaci%C3%B3n+paraguay&oq=alojamiento+en+encarnacion+paraguay&gs_l=psy-ab.1.0.0j0i22i30k1l3.3470.10052.0.11699.20.20.0.0.0.0.240.2492.0j16j1.17.0....0...1c.1.64.psy-ab..3.17.2487...0i22i10i30k1.0.hZTWfeZlJcM#rlfi=hd:2019-09-10,2019-09-11;si:;mv:!1m2!1d-27.2966129!2d-55.859310799999996!2m2!1d-27.3433191!2d-55.890375199999994;tbs:lf_hd:-1,lf_ho:2,lrf:!1m4!1u13!2m2!13m1!1b1!1m4!1u10!2m2!11m1!1e10!1m4!1u10!2m2!11m1!1e2!1m4!1u10!2m2!11m1!1e3!2m21!1e7!4m4!7m3!1m1!1u300000!3sPYG!4m4!7m3!1m1!1u400000!3sPYG!4m4!7m3!1m1!1u500000!3sPYG!4m4!7m3!1m1!1u600000!3sPYG!2m1!1e2!2m1!1e13!2m10!1e10!4m2!11m1!1e10!4m2!11m1!1e2!4m2!11m1!1e3!2m7!1e17!4m2!17m1!1e3!4m2!17m1!1e8!3sIAE,lf:1,lf_ui:6" class="btn btn-default">Google</a>
+      </span>
+
+
+    </div>
+    <div class = "col-md-4">
+<h2> Turismo e Cultura </h2>
+         <p> Em construção </p>
+       <button class = "btn btn-default"> Em breve </button>
+      
+    </div>
+  </div>
+</section>
+
+<section class="container content-section text-center">
+
+    <h2>Vídeos</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <div id="random_number1" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="video-container item active">
+                <div class="youtube-video" id='MU94slqnquw'></div>
+              </div>
+              <div class="video-container item">
+                <div class="youtube-video" id='20eFJO83Y80'></div>
+              </div>
+              <div class="video-container item ">
+                <div class="youtube-video" id='XdFkUjZf5-4'></div>
+              </div>
+            </div>
+            <div class="controls">
+              <a class="left carousel-control" href="#random_number1" data-slide="prev">
+                <div class="left-button">
+                  <div class="glyphicon glyphicon-chevron-left"></div>
+                </div>
+              </a>
+              <a class="right carousel-control" href="#random_number1" data-slide="next">        
+                <div class="right-button">
+                  <div class="glyphicon glyphicon-chevron-right"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="col-md-6">
+      <iframe class="video-size"  src="https://www.youtube.com/embed/MU94slqnquw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      <iframe class="video-size" src="https://www.youtube.com/embed/20eFJO83Y80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col ">
+      <iframe class="video-size-full" src="https://www.youtube.com/embed/XdFkUjZf5-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>-->
+</section>
+
+<section id="venue" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Lugar
+    </h2>
+  </div>
+
+  <div class="container-fluid row"><div id="map"></div>
+
+<script>
+
+  var map = L.map('map', {scrollWheelZoom: false}).setView([ -27.3374, -55.8602], 16);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  var library = L.marker([ -27.337444 , -55.860216])
+    .bindPopup('<p class="popup-content text-center"><strong>Encarnación</strong></p>')
+    .addTo(map);
+</script>
+</div>
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-sm-12">
+        <div class="thumbnail">
+          <div class="caption text-center">
+            <h3> Universidade Autônoma de Encarnación </h3>
+             <p class = "local">
+O evento será realizado no auditório urbano da Universidade Autônoma de Encarnación, na cidade de Encarnación, Paraguai.
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---
+<section id="join-us" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Como participar
+    </h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-4 col-md-3 col-md-offset-1">
+      <a href="https://www.papercall.io/sotm-latam-2018">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-check"></span>
+          <div class="caption text-center">
+            <h3>Registrese</h3>
+            <p>Envíe su propuesta de charla</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-sm-4 col-md-4">
+      <div class="thumbnail">
+        <span class="glyphicon glyphicon-comment"></span>
+        <div class="caption text-center">
+          <h3>Comparta</h3>
+          <p>Invite a sus amigos y ayude a divulgar nuestro evento</p>
+          <div class="row">
+            <div class="col-md-6 text-right twitter-col">
+              <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Participa%20del%20State%20of%20the%20Map%20Latam%202018!%20La%20Conferencia%20Latinoamericana%20de%20OpenStreetMap,%2024%20Sep%20-%2025%20Sep%20en%20Buenos%20Aires"
+              data-size="large">
+                Tweet
+              </a>
+            </div>
+            <div class="col-md-6 text-left fb-col">
+              <div class="fb-like" data-href="http://state.osmlatam.org"
+              data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 col-md-3">
+      <a href="mailto:info@osmlatam.org?subject=Sponsorship">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-briefcase"></span>
+          <div class="caption text-center row">
+            <h3>Patrocine</h3>
+            <p>Promocione su negocio y ayude a la comunidad Latam. Escríbenos a info@osmlatam.org</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+-->
+<section id="sponsors" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Apoyan
+    </h2>
+  </div>
+  <div class="row" style="margin-bottom: 30px">
+    <div class="col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img src="/images/UNAE.png" alt="kaart" width="200">
+      </a>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img src="/images/FADA.png" alt="kaart" width="200">
+      </a>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img  src="/images/Investigacion.png" alt="kaart" width="200">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img src="/images/CIDI.png" alt="kaart" width="200">
+      </a>
+    </div>
+    <div class="row text-center">
+      <h2>
+        Con el Auspicio de
+      </h2>
+    </div>
+    <div class="row" style="margin-bottom: 30px">
+      <div class="col-sm-12 col-md-12">
+        <a href="http://kaartgroup.com/" target="_blank">
+          <img src="/images/Exponencial.png" alt="kaart" width="200">
+        </a>
+      </div>
+      
+      
+    </div>
+    <!-- <div class="row">
+      <div class="col-sm-4 col-md-4">
+        <a href="http://kaartgroup.com/" target="_blank">
+          <img src="/images/CIDI.png" alt="kaart" width="200">
+        </a>
+      </div> -->
+   <!--  <div class="col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img src="/images/Blanco-05.png" alt="kaart" width="200">
+      </a>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank">
+        <img src="/images/Blanco-06.png" alt="kaart" width="200">
+      </a>
+    </div>
+  </div> -->
+</section>
+<!---
+<section id="apoyo" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Con el Apoyo de
+    </h2>
+ 
+
+ </div>
+    <div class="col-sm-4 col-md-4">
+      <a href="https://www.argentina.gob.ar/modernizacion/" target="_blank" class="thumbnail">
+        <img src="/images/modernizacion.png" alt="modernizacion" width="200">
+      </a>
+    </div>
+
+    <div class="col-sm-4 col-md-4"> 
+      <a href="http://centroargentinodecartografia.org/" target="_blank" class="thumbnail">
+        <img src="/images/cac.png" alt="cac" width="100">
+      </a></div>
+
+      <div class="col-sm-4 col-md-4">
+ <a href="http://geoinquietos.org/grupos/argentina/" target="_blank" class="thumbnail">
+        <img src="/images/geoinquietos-new.png" alt="geoinquietos" width="200">
+      </a>
+     </div>     
+       <div class="col-sm-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
+ <a href="https://geochicas.org/" target="_blank" class="thumbnail">
+        <img src="/images/geochicas.jpg" alt="geochicas" width="200">
+      </a>
+     </div>     
+  <br>
+</section>
+<section id="transporte" class="container content-section text-center">
+ <div class="row text-center">
+    <h3>
+      Transporte Oficial
+    </h3>
+ <br>
+
+ </div>
+    <div class="col-sm-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
+      <a href="http://ww1.aerolineas.com.ar/arg/main.asp?idSitio=AR&idPagina=161&idIdioma=es&congresoID=5960" target="_blank" class="thumbnail">
+        <img src="/images/aerolineas.png" alt="aerolineas" width="200">
+      </a>
+    </div>
+<br>
+</section>
+-->
+
+
+
+
+
+
+
+<div class="modal fade" id="code-of-conduct-en" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-en">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel-en">Conference Code of Conduct</h4>
+      </div>
+      <div class="modal-body">
+        <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
+
+        <h4>Need Help?</h4>
+
+        <p>Contact one of the organizers at the conference or write us: <a href="mailto:info@osmlatam.org">info@osmlatam.org</a>.</p>
+
+        <h4>The Quick Version</h4>
+
+        <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference <em>without a refund</em> at the discretion of the conference organisers.</p>
+
+        <h4>The Less Quick Version</h4>
+
+        <p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+
+        <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+
+        <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+
+        <p>If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+
+        <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they&#39;ll be wearing branded t-shirts.</p>
+
+        <p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+
+        <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="code-of-conduct-es" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-es">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel-es">Código de Conducta de La Conferencia</h4>
+      </div>
+      <div class="modal-body">
+        <p>Se requiere que todos los asistentes, ponentes, patrocinadores y voluntarios de nuestra conferencia acepten el siguiente código de conducta. Los organizadores harán cumplir este código a lo largo del evento. Esperamos la colaboración de todos los participantes para ayudar a asegurar un ambiente seguro para todos.</p>
+
+        <h4>¿Necesitas ayuda?</h4>
+
+        <p>Hable con uno de los organizadores en la conferencia o escribanos: <a href="mailto:info@osmlatam.org">info@osmlatam.org</a>.</p>
+
+        <h4>La Versión Rápida</h4>
+
+        <p>Nuestra conferencia se dedica a ofrecer una experiencia libre de acosos para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, talla, raza o religión. No toleramos acosos de los participantes de la conferencia en ninguna de sus formas. El lenguaje e imágenes sexuales no son apropiados para ninguna sala de la conferencia, incluyendo charlas, talleres, fiestas, Twitter y otros medios online. Los participantes de la conferencia que violen estas reglas pueden ser sancionados o expulsados de la misma <em>sin reembolso</em> a discreción de los organizadores.</p>
+
+        <h4>La Versión Menos Corta</h4>
+
+        <p>Los acosos incluyen: comentarios ofensivos relativos a género, orientación sexual, discapacidad, apariencia física, talla, raza, religión, imágenes sexuales en espacios públicos, intimidación deliberada, acoso, persecución, fotografía o grabación de acosos, interrupciones continuadas de charlas u otros eventos, contacto físico inapropiado y atención sexual no deseada.</p>
+
+        <p>Se espera que los participantes instados a parar cualquier comportamiento abusivo obedezcan inmediatamente.</p>
+
+        <p>Los patrocinadores también están sujetos a la política contra acosos. En particular, los patrocinadores no deberían utilizar imágenes, actividades u otro material con contenido sexual. El personal de los puestos (voluntarios incluidos) no debería usar ropa/uniformes/disfraces sexualizados, o que de otra manera crean un ambiente sexualizado.</p>
+
+        <p>Si un participante incurre en un comportamiento abusivo, los organizadores de la conferencia pueden tomar cualquier acción que estimen oportuna, incluyendo advertencias al ofensor o su expulsión de la conferencia sin reembolso.</p>
+
+        <p>Si estás sufriendo algún abuso, adviertes acosos sobre otra persona, o tienes alguna otra preocupación, por favor contacta con algún miembro del personal de la conferencia inmediatamente. El personal de la conferencia puede ser fácilmente identificado, ya que vestirán camisetas del evento.</p>
+
+        <p>El personal de la conferencia estará contento de ayudar a los participates a contactar con la seguridad del hotel/sala o con las autoridades locales, proveer escolta o asistir de otra manera a aquellos que estén sufriendo acosos para que se sientan seguros mientras dure la conferencia. Valoramos tu asistencia.</p>
+
+        <p>Esperamos que los participantes sigan estas reglas en la la conferencia, talleres y eventos sociales relacionados con la conferencia.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="code-of-conduct-pt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-pt">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel-pt">Código de Conduta da conferência</h4>
+      </div>
+      <div class="modal-body">
+        <p>Todos os participantes, palestrantes, patrocinadores e voluntários da conferência precisam concordar com este código de conduta.
+        Os organizadores vão reforçar que este código seja seguido durante todo o evento. Esperamos a cooperação de todos os participantes para ajudar a garantir um ambiente seguro para todos.</p>
+
+        <h4>Precisa de ajuda?</h4>
+
+        <p>Fale com um dos organizadores na conferência ou nos envie um email: <a href="mailto:info@osmlatam.org">info@osmlatam.org</a>.</p>
+
+        <h4>Versão rápida</h4>
+
+        <p>
+          Nossa conferência é dedicada a fornecer uma experiência de conferência livre de assédio para todos,
+          independentemente do sexo, identidade de gênero e expressão, idade, orientação sexual, deficiência,
+          aparência física, tamanho corporal, cor de pele, etnia, religião (ou falta dela) ou escolhas de tecnologias.
+          Nós não toleramos o assédio aos participantes da conferência, sob qualquer forma. Linguagem e imagens sexuais
+          não são apropriadas em nenhum local da conferência, incluindo palestras, workshops, festas, Twitter e
+          outras mídias on-line. Os participantes que violarem estas regras poderão ser punidos ou expulsos da conferência
+          <em>sem restituição</em>, a critério dos organizadores da conferência.
+        </p>
+
+        <h4>Versão mais longa</h4>
+        <p>
+          Assédio inclui comentários verbais ofensivos relacionados ao gênero, identidade de gênero e expressão,
+          idade, orientação sexual, deficiência, aparência física, tamanho corporal, cor de pele, etnia, religião, escolhas
+          de tecnologias, imagens sexuais em espaços públicos, intimidação deliberada, perseguição, <em>stalking</em>,
+          fotografias ou filmagens constrangedoras, interrupção contínua das apresentações ou outros eventos, contato
+          físico inadequado e atenção sexual indesejada.
+        </p>
+
+        <p>
+          Os participantes que receberem uma solicitação para interromper qualquer comportamento de assédio devem fazê-lo imediatamente.
+        </p>
+
+        <p>
+          Os patrocinadores também estão sujeitos às políticas antiassédio. Particularmente, os patrocinadores
+          não devem usar imagens, atividades ou outro material de cunho sexual. As equipes de estandes e tendas
+          (incluindo voluntários) não devem utilizar roupas, uniformes ou trajes sexualizados ou de outra forma
+          criar um ambiente sexualizado.
+        </p>
+
+        <p>
+          Se um participante se envolve em comportamento de assédio, os organizadores da conferência podem tomar
+          todas as medidas que considerem adequadas, incluindo avisar o ofensor ou expulsá-lo da conferência sem
+          nenhum reembolso.
+        </p>
+
+        <p>
+          Caso seja assediado, perceba que alguém está sendo assediado ou tenha alguma dúvida, entre
+          em contato com um membro da equipe da conferência imediatamente. Membros da equipe da conferência podem ser
+          identificados pois estarão vestindo camisetas marcadas.
+        </p>
+
+        <p>
+          A equipe da conferência estará disposta a auxiliar os participantes a contatarem a segurança do hotel ou
+          local, assim como as devidas aplicações da lei local, fornecer escoltas ou ajudar aqueles que sofrerem
+          assédio para se sintam seguros pelo o decorrer da conferência. Nós valorizamos a sua participação.
+        </p>
+
+        <p>
+          Esperamos que os participantes sigam estas regras em salas de apresentação e workshops da conferência,
+          além de eventos sociais relacionados.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div id="mastfooter">
+  <div class="container">
+    <div class="row bottom-espace text-center">
+      <div class="col-sm-12 col-md-3 col-md-offset-3">
+        
+        <a class="dark site-title" href="">
+          <div class="title-sotm">State of the Map LATAM 2019</div>
+        </a>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <a href="https://osm.org"><img class="social-icon" src="/images/osm.png" alt="OpenStreetMap"></a>
+        <a target="_blank" href="https://twitter.com/OSMLatam"><img class="social-icon" src="/images/tw.png" alt="twitter"></a>
+        <a target="_blank" href="https://www.facebook.com/osmlatam"><img class="social-icon" src="/images/fb.png" alt="facebook"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCzYgQtCudy1ihZYAlpC3EXQ"><img class="social-icon" src="/images/youtube.png" alt="youtube"></a>
+        <a target="_blank" href="https://www.instagram.com/osm_latam_py2019/"><img class="social-icon" src="/images/instagram.png" alt="instagram"></a>
+        <a target="_blank" href="mailto:2019@osmlatam.org"><img class="social-icon" src="/images/correologo.png" alt="Correo"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Javascript
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/3.3.7/js/grayscale.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+<script type="text/javascript" src='/js/main.js'></script>
+<!-- Custom Theme JavaScript -->
+<script>
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+  });
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+  });
+  // Scrolls to the selected menu item on the page
+  $(function() {
+      $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  $('html,body').animate({
+                      scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+              }
+          }
+      });
+  });
+  //#to-top button appears after scrolling
+  var fixed = false;
+  $(document).scroll(function() {
+      if ($(this).scrollTop() > 250) {
+          if (!fixed) {
+              fixed = true;
+              // $('#to-top').css({position:'fixed', display:'block'});
+              $('#to-top').show("slow", function() {
+                  $('#to-top').css({
+                      position: 'fixed',
+                      display: 'block'
+                  });
+              });
+          }
+      } else {
+          if (fixed) {
+              fixed = false;
+              $('#to-top').hide("slow", function() {
+                  $('#to-top').css({
+                      display: 'none'
+                  });
+              });
+          }
+      }
+  });
+</script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+</body>
+
+</html>
+

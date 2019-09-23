@@ -66,26 +66,26 @@ t:
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2019
-# pt:
-#   language_name: Português
-#   modal:
-#     abstract: Ver resumo
-#     close: Fechar
-#   menu:
-#     about:
-#       label: Sobre
-#       url: /pt/#about
-#     program:
-#       label: Envia sua palestra
-#       url: https://www.papercall.io/sotm-latam-2018
-#       label: Programa
-#       url: /pt/#program
-#     venue:
-#       label: Local
-#       url: /pt/#venue
-#     register:
-#      label: Inscreva-se
-#      url: https://sotmlatam2018.eventbrite.com.ar
-#     wiki:
-#       label: Wiki
-#       url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018
+  pt:
+    language_name: Português
+    modal:
+      abstract: Ver resumo
+      close: Fechar
+    menu:
+      about:
+        label: Sobre
+        url: /pt/#about
+      program:
+        label: Envia sua palestra
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Programa
+        url: /pt/#program
+      venue:
+        label: Local
+        url: /pt/#venue
+      register:
+       label: Inscreva-se
+       url: https://sotmlatam2018.eventbrite.com.ar
+      wiki:
+        label: Wiki
+        url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018
