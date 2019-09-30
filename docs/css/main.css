@@ -6,7 +6,8 @@
  */
 body {
   background-color: white !important;
-  color: #170202; }
+  color: #170202;
+  font-family: 'Chivo', sans-serif; }
 
 .navbar-custom.top-nav-collapse {
   background: #170202 none repeat scroll 0 0 !important; }
