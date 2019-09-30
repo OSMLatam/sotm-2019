@@ -5,7 +5,8 @@
  * General styles
  */
 body {
-  background-color: #170202 !important; }
+  background-color: white !important;
+  color: #170202; }
 
 .navbar-custom.top-nav-collapse {
   background: #170202 none repeat scroll 0 0 !important; }
@@ -79,14 +80,15 @@ body {
 /* Index
 ---------------------------------------------- */
 .intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), #170202), url("/images/encar-min.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("/images/encar-min.jpg");
+  color: #170202; }
   .intro img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #170202; }
   .intro h1 {
     margin-left: auto;
     margin-right: auto;
@@ -95,7 +97,7 @@ body {
     padding-bottom: 20px;
     margin-bottom: 20px;
     padding-bottom: 13px;
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #170202; }
     .intro h1 span {
       display: block; }
     .intro h1 span::before {
@@ -127,6 +129,10 @@ h3 {
 
 .bottom-espace {
   margin-bottom: 30px; }
+
+.btn-circle {
+  border-color: #a04040;
+  color: #a04040; }
 
 #program-board {
   background-color: #fff; }
