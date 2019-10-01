@@ -259,6 +259,9 @@ a:focus, a:hover {
   height: 500px;
   padding-top: 2%; }
 
+.margen {
+  margin-bottom: 40px; }
+
 /*
  * Bootrap carousel plugin
  * --------------------------------------------------
