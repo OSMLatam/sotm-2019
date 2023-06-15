@@ -2,17 +2,16 @@
 title: State of the Map LATAM 2019
 email: info@osmlatam.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Conference website for State Of The Map Latam 2019, the OpenStreetMap conference for Latin American,
+  which took place in 2019 between November 14th and 16th in the city of Encarnación, Paraguay.
 destination: docs
-url: "http://state.osmlatam.org" # the base hostname & protocol for your site
+url: "https://2019.osmlatam.org/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 email: "info@osmlatam.org"
 facebook_page: "osmlatam"
 twitter_username: "osmlatam"
 github_username:
-# website: "http://state.osmlatam.org"
+website: "https://2019.osmlatam.org/"
 exclude: [README.md]
 
 # Build settings
